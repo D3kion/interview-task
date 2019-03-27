@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Карта парка</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/leaflet.css">
+    <link rel="stylesheet" href="css/leaflet.draw.css">
+    <link rel="stylesheet" href="css/leaflet.measurecontrol.css">
+    <link rel="stylesheet" href="css/L.Control.MousePosition.css">
+    <script src="js/leaflet.js"></script>
+    <script src="js/leaflet.draw.js"></script>
+    <script src="js/leaflet.measurecontrol.min.js"></script>
+    <script src="js/L.Control.MousePosition.js"></script>
+    <style>
+    html, body {
+        margin: 0;
+    }
+    #mapid {
+        position: fixed; 
+        width: 100%; height: 100%;
+    }
+    #sidebar {
+        position: fixed;
+        top: 0.5em;
+        right: 1em;
+    }
+    </style>
+</head>
+<body>
+    <div id="mapid"></div>
+    <div id="sidebar" class="list-group"></div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/underscore.js"></script>
+    <script src="js/backbone.js"></script>
+    <script src="js/backbone.radio.js"></script>
+    <script src="js/backbone.marionette.min.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/sidebar.js"></script>
+</body>
+</html>
